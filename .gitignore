@@ -1,0 +1,13 @@
+.env
+.env*.local
+*.env
+dist
+
+# Dependencies
+node_modules
+
+# Cloudflare Wrangler
+.wrangler
+
+# macOS
+.DS_Store
