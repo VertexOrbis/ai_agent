@@ -723,6 +723,99 @@ html {
 }
 
 /* -------------------------------------------------------------
+   Open Source Section
+   ------------------------------------------------------------- */
+.open-source-section {
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  background: rgba(11, 21, 40, 0.3);
+}
+
+.oss-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 18px;
+  padding: 40px;
+  transition: border-color var(--transition-normal);
+}
+
+.oss-card:hover {
+  border-color: rgba(34, 211, 238, 0.35);
+}
+
+.oss-main {
+  flex: 1 1 520px;
+  min-width: 0;
+}
+
+.oss-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.oss-name {
+  font-family: monospace;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.oss-badge {
+  font-family: monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--accent-cyan);
+  background: rgba(34, 211, 238, 0.1);
+  border: 1px solid var(--accent-cyan-glow);
+  border-radius: 999px;
+  padding: 3px 10px;
+}
+
+.oss-desc {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  max-width: 62ch;
+}
+
+.oss-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.oss-tag {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.oss-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 0 0 auto;
+}
+
+.oss-meta {
+  font-family: monospace;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  word-break: break-all;
+}
+
+/* -------------------------------------------------------------
    Founder Section
    ------------------------------------------------------------- */
 .founder-section {
